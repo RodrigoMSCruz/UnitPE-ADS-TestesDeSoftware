@@ -3,199 +3,202 @@ def NumExtenso(n):
     if n == 1:
         return 'Um'
     if n == 2:
-        return 'Um'
+        return 'Dois'
     if n == 3:
-        return 'Um'
+        return 'Três'
     if n == 4:
-        return 'Um'
+        return 'Quatro'
     if n == 5:
-        return 'Um'
+        return 'Cinco'
     if n == 6:
-        return 'Um'
+        return 'Seis'
     if n == 7:
-        return 'Um'
+        return 'Sete'
     if n == 8:
-        return 'Um'
+        return 'Oito'
     if n == 9:
-        return 'Um'
+        return 'Nove'
     if n == 10:
-        return 'Um'
+        return 'Dez'
     if n == 11:
-        return 'Um'
+        return 'Onze'
     if n == 12:
-        return 'Um'
+        return 'Doze'
     if n == 13:
-        return 'Um'
+        return 'Treze'
     if n == 14:
-        return 'Um'
+        return 'Catorze'
     if n == 15:
-        return 'Um'
+        return 'Quinze'
     if n == 16:
-        return 'Um'
+        return 'Dezesseis'
     if n == 17:
-        return 'Um'
+        return 'Dezessete'
     if n == 18:
-        return 'Um'
+        return 'Dezoito'
     if n == 19:
-        return 'Um'
+        return 'Dezenove'
     if n == 20:
-        return 'Um'
+        return 'Vinte'
     if n == 21:
-        return 'Um'
+        return 'Vinte e um'
     if n == 22:
-        return 'Um'
+        return 'Vinte e dois'
     if n == 23:
-        return 'Um'
+        return 'Vinte e três'
     if n == 24:
-        return 'Um'
+        return 'Vinte e quatro'
     if n == 25:
-        return 'Um'
+        return 'Vinte e cinco'
     if n == 26:
-        return 'Um'
+        return 'Vinte e seis'
     if n == 27:
-        return 'Um'
+        return 'Vinte e sete'
     if n == 28:
-        return 'Um'
+        return 'Vinte e oito'
     if n == 29:
-        return 'Um'
+        return 'Vinte e nove'
     if n == 30:
-        return 'Um'
+        return 'Trinta'
     if n == 31:
-        return 'Um'
+        return 'Trinta e um'
     if n == 32:
-        return 'Um'
+        return 'Trinta e dois'
     if n == 33:
-        return 'Um'
+        return 'Trinta e três'
     if n == 34:
-        return 'Um'
+        return 'Trinta e quatro'
     if n == 35:
-        return 'Um'
+        return 'Trinta e cinco'
     if n == 36:
-        return 'Um'
+        return 'Trinta e seis'
     if n == 37:
-        return 'Um'
+        return 'Trinta e sete'
     if n == 38:
-        return 'Um'
+        return 'Trinta e oito'
     if n == 39:
-        return 'Um'
+        return 'Trinta e nove'
     if n == 40:
-        return 'Um'
+        return 'Quarenta'
     if n == 41:
-        return 'Um'
+        return 'Quarenta e um'
     if n == 42:
-        return 'Um'
+        return 'Quarenta e dois'
     if n == 43:
-        return 'Um'
+        return 'Quarenta e três'
     if n == 44:
-        return 'Um'
+        return 'Quarenta e quatro'
     if n == 45:
-        return 'Um'
+        return 'Quarenta e cinco'
     if n == 46:
-        return 'Um'
+        return 'Quarenta e seis'
     if n == 47:
-        return 'Um'
+        return 'Quarenta e sete'
     if n == 48:
-        return 'Um'
+        return 'Quarenta e oito'
     if n == 49:
-        return 'Um'
+        return 'Quarenta e nove'
     if n == 50:
-        return 'Um'
+        return 'Cinquenta.'
     if n == 51:
-        return 'Um'
+        return 'Cinquenta e um'
     if n == 52:
-        return 'Um'
+        return 'Cinquenta e dois'
     if n == 53:
-        return 'Um'
+        return 'Cinquenta e três'
     if n == 54:
-        return 'Um'
+        return 'Cinquenta e quatro'
     if n == 55:
-        return 'Um'
+        return 'Cinquenta e cinco'
     if n == 56:
-        return 'Um'
+        return 'Cinquenta e seis'
     if n == 57:
-        return 'Um'
+        return 'Cinquenta e sete'
     if n == 58:
-        return 'Um'
+        return 'Cinquenta e oito'
     if n == 59:
-        return 'Um'
+        return 'Cinquenta e nove'
     if n == 60:
-        return 'Um'
+        return 'Sessenta'
     if n == 61:
-        return 'Um'
+        return 'Sessenta e um'
     if n == 62:
-        return 'Um'
+        return 'Sessenta e dois'
     if n == 63:
-        return 'Um'
+        return 'Sessenta e três'
     if n == 64:
-        return 'Um'
+        return 'Sessenta e quatro'
     if n == 65:
-        return 'Um'
+        return 'Sessenta e cinco'
     if n == 66:
-        return 'Um'
+        return 'Sessenta e seis'
     if n == 67:
-        return 'Um'
+        return 'Sessenta e sete'
     if n == 68:
-        return 'Um'
+        return 'Sessenta e oito'
     if n == 69:
-        return 'Um'
+        return 'Sessenta e nove'
     if n == 70:
-        return 'Um'
+        return 'Setenta'
     if n == 71:
-        return 'Um'
+        return 'Setenta e um'
     if n == 72:
-        return 'Um'
+        return 'Setenta e dois'
     if n == 73:
-        return 'Um'
+        return 'Setenta e três'
     if n == 74:
-        return 'Um'
+        return 'Setenta e quatro'
     if n == 75:
-        return 'Um'
+        return 'Setenta e cinco'
     if n == 76:
-        return 'Um'
+        return 'Setenta e seis'
     if n == 77:
-        return 'Um'
+        return 'Setenta e sete'
     if n == 78:
-        return 'Um'
+        return 'Setenta e oito'
     if n == 79:
-        return 'Um'
+        return 'Setenta e nove'
     if n == 80:
-        return 'Um'
+        return 'Oitenta'
     if n == 81:
-        return 'Um'
+        return 'Oitenta e um'
     if n == 82:
-        return 'Um'
+        return 'Oitenta e dois'
     if n == 83:
-        return 'Um'
+        return 'Oitenta e três'
     if n == 84:
-        return 'Um'
+        return 'Oitenta e quatro'
     if n == 85:
-        return 'Um'
+        return 'Oitenta e cinco'
     if n == 86:
-        return 'Um'
+        return 'Oitenta e seis'
     if n == 87:
-        return 'Um'
+        return 'Oitenta e sete'
     if n == 88:
-        return 'Um'
+        return 'Oitenta e oito'
     if n == 89:
-        return 'Um'
+        return 'Oitenta e nove'
     if n == 90:
-        return 'Um'
+        return 'Noventa'
     if n == 91:
-        return 'Um'
+        return 'Noventa e um'
     if n == 92:
-        return 'Um'
+        return 'Noventa e dois'
     if n == 93:
-        return 'Um'
+        return 'Noventa e três'
     if n == 94:
-        return 'Um'
+        return 'Noventa e quatro'
     if n == 95:
-        return 'Um'
+        return 'Noventa e cinco'
     if n == 96:
-        return 'Um'
+        return 'Noventa e seis'
     if n == 97:
-        return 'Um'
+        return 'Noventa e sete'
     if n == 98:
-        return 'Um'
+        return 'Noventa e oito'
     if n == 99:
-        return 'Um'
+        return 'Noventa e nove'
 #
+
+numero = int(input('Digite um número entre 1 e 99: '))
+print(NumExtenso(numero))
