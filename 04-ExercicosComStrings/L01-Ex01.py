@@ -31,5 +31,5 @@ def comparaStrings(texto1, texto2):
 #
 
 str1 = input('Digite o texto 1: ')
-str2 = input('Digite o texto 1: ')
+str2 = input('Digite o texto 2: ')
 comparaStrings(str1, str2)
