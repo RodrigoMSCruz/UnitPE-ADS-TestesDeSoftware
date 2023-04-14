@@ -39,21 +39,55 @@
 # 11              1               12,5%
 # O melhor jogador foi o número 9, com 4 votos, correspondendo a 50% do total de votos.
 
-
-def enqueteJogador(camisa):
-    print('ENTROU!!!')
+def calculaPercentual(i, votos):
+    somatorio = 0
+    for v in votos:
+        somatorio += v
+    #
+    return (votos[i]/somatorio) * 100
 #
 
-while True:
-    voto = int(input('Número do jogador (0=fim): '))
-    
-    if (voto >= 1) and (voto <= 23):
-        enqueteJogador(voto)
+
+def melhorJogador(votos):
+    melhor = maisVotos = 0
+    for i in range(0, 24):
+        if i == 1:
+            melhor = i
+            maisVotos = votos[i]
+        #
+        else:
+            if votos[i] > maisVotos:
+                melhor = i
+                maisVotos = votos[i]
+            #
+        #
     #
-    if (voto <= -1) or (voto >= 24):
+    resposta = 'O melhor jogador foi o número ', melhor, 'com ', maisVotos, ' votos, correspondendo a ', calculaPercentual(melhor, votos), '% do total de votos'
+    return resposta
+#
+
+
+votos = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+while True:
+    camisa = int(input('Número do jogador (0=fim): '))
+    
+    if (camisa >= 1) and (camisa <= 23):
+        votos[camisa] +=1
+    #
+    if (camisa <= -1) or (camisa >= 24):
         print('Informe um valor entre 1 e 23 ou 0 para sair!')
     #
-    if voto == 0:
+    if camisa == 0:
         break
     #
 #
+
+print('Resultado da votação:')
+print('Jogador  Votos       %')
+for i in range(0, 24):
+    if votos[i] != 0:
+        print(i, '          ', votos[i], '  ', calculaPercentual(i, votos),'%')
+    #
+#
+print(melhorJogador(votos))
