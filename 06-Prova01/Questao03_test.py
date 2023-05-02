@@ -1,4 +1,4 @@
-from main03 import calculaMedia
+from Questao03 import calculaMedia
 
 def test_calculaMedia():
   notas = [0, 10 , 10, 8, 6]

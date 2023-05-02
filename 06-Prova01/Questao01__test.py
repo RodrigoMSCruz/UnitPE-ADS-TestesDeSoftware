@@ -1,4 +1,4 @@
-from main01 import existe_string
+from Questao01 import existe_string
 
 def test_existe_string():
   assert existe_string("joao", "joao e o pé de feijão") == True
