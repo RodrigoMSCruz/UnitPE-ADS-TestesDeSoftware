@@ -10,3 +10,5 @@ def test_calculaMedia():
   notas = [10, 8]
   assert calculaMedia(notas) == 9.0
 #
+
+
