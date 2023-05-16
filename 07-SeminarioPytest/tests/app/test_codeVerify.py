@@ -1,4 +1,4 @@
-from app.codeVerify import check_code
+from app.CodeVerify import check_code
 
 
 def test_empty():
