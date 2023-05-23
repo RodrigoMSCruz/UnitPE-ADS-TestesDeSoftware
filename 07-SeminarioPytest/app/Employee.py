@@ -4,12 +4,12 @@ from dataclasses import dataclass
 class Employee:
     
     id: int
-    name: str
+    nome: str
     email: str
-    salary: float
+    salario: float
 
-    def increase_salary(self, percent: float):
-        self.salary = self.salary + (self.salary * (percent / 100))
+    def aumenta_salario(self, percent: float):
+        self.salario = self.salario + (self.salario * (percent / 100))
 
-    def decrease_salary(self, percent: float):
-        self.salary = self.salary - (self.salary * (percent / 100))
+    def diminui_salario(self, percent: float):
+        self.salario = self.salario - (self.salario * (percent / 100))

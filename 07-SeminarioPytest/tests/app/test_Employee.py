@@ -13,9 +13,9 @@ def test_constructor(funcionario: Employee):
     
     #funcionario = Employee(10, 'João José', 'joaojose@souunit.com.br', 3500.00)
     assert funcionario.id == 10
-    assert funcionario.name == 'João José'
+    assert funcionario.nome == 'João José'
     assert funcionario.email == 'joaojose@souunit.com.br'
-    assert funcionario.salary == 3500.00
+    assert funcionario.salario == 3500.00
 
 
 def test_ifIsADataclass(funcionario: Employee):
@@ -23,17 +23,19 @@ def test_ifIsADataclass(funcionario: Employee):
     #funcionario = Employee(10, 'João José', 'joaojose@souunit.com.br', 3500.00)
     assert is_dataclass(funcionario) == True
 
-#@mark.salario
+
+@mark.Salario
 def test_increaseSalaryPercent(funcionario: Employee):
     
     #funcionario = Employee(10, 'João José', 'joaojose@souunit.com.br', 3500.00)
-    funcionario.increase_salary(10)
-    assert funcionario.salary == 3850
+    funcionario.aumenta_salario(10)
+    assert funcionario.salario == 3850
 
-#@mark.salario 
+
+@mark.Salario 
 def test_decreaseSalaryPercent(funcionario: Employee):
 
     #funcionario = Employee(10, 'João José', 'joaojose@souunit.com.br', 3500.00)
-    funcionario.decrease_salary(25)
-    assert funcionario.salary == 2625
+    funcionario.diminui_salario(25)
+    assert funcionario.salario == 2625
 
