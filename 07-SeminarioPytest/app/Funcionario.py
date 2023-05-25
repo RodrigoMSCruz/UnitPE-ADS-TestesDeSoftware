@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 @dataclass()
-class Employee:
+class Funcionario:
     
     id: int
     nome: str

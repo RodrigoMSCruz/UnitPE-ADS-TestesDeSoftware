@@ -19,4 +19,3 @@ def check_code(code):
   codeStrip = code.strip()
   return lengh_verify(codeStrip) and numeric_verify(codeStrip)
 
-#print(check_code('88888888'))
