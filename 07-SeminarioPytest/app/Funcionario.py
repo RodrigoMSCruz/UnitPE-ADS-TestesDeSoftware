@@ -1,3 +1,4 @@
+
 from dataclasses import dataclass
 
 @dataclass()
@@ -13,3 +14,4 @@ class Funcionario:
 
     def diminui_salario(self, percent: float):
         self.salario = self.salario - (self.salario * (percent / 100))
+    

@@ -1,44 +1,41 @@
-from app.CodeVerify import check_code
+from app.VerificaCodigo import checa_codigo, soma2numeros
 from pytest import mark
+import sys
 
-def test_empty():
-  assert check_code('') == False
-
-
-def test_lenght():
-  assert check_code('88888888') == True
-  assert check_code('0123') == False
-  assert check_code('01347984') == True
+def test_vazio():
+  assert checa_codigo('') == False
 
 
-
-@mark.letras
-def test_letters():
-  assert check_code('123456a9') == False
-  assert check_code('b9876543') == False
-  assert check_code('cOd1g0') == False
-  
-
-@mark.caracteresEspeciais
-def test_specialChars():
-  assert check_code('@1234567') == False
-  assert check_code('@!#$%&*+') == False
-  assert check_code('81-987_4') == False
+def test_comprimento():
+  assert checa_codigo('88888888') == True
+  assert checa_codigo('0123') == False
+  assert checa_codigo('01347984') == True
 
 
-@mark.Espacos
-def test_blankSpacesInBeginingOrInTheEnding():
-  assert check_code(' 85431294 ') == True
-  assert check_code(' 98765432') == True
-  assert check_code('87457981 ') == True
+def test_letras():
+  assert checa_codigo('123456a9') == False
+  assert checa_codigo('b9876543') == False
+  assert checa_codigo('cOd1g0') == False
 
 
-def test_manyPossibilites():
-  assert check_code(' 12$56') == False
-  assert check_code('78%3 A') == False
-  assert check_code('r1%@') == False
-  assert check_code(' Err@d0 ') == False
-  assert check_code('T35t3 3rr4d0! 56') == False
+def test_caracteresEspeciais():
+  assert checa_codigo('@1234567') == False
+  assert checa_codigo('@!#$%&*+') == False
+  assert checa_codigo('81-987_4') == False
+
+
+def test_espacosNoComecoOuNoFinal():
+  assert checa_codigo(' 85431294 ') == True
+  assert checa_codigo(' 98765432') == True
+  assert checa_codigo('87457981 ') == True
+
+
+def test_muitasPossibilidades():
+  assert checa_codigo(' 12$56') == False
+  assert checa_codigo('78%3 A') == False
+  assert checa_codigo('r1%@') == False
+  assert checa_codigo(' Err@d0 ') == False
+  assert checa_codigo('T35t3 3rr4d0! 56') == False
 
 
 '''
@@ -51,5 +48,5 @@ def test_manyPossibilites():
   ]   
 )
 def test_lenght_with_parametrize(param,waited_result):
-  assert check_code(param) == waited_result
+  assert checa_codigo(param) == waited_result
 '''
