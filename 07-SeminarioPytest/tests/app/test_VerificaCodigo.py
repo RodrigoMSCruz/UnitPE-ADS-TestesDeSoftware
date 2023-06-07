@@ -1,4 +1,4 @@
-from app.VerificaCodigo import checa_codigo, soma2numeros
+from app.VerificaCodigo import checa_codigo
 from pytest import mark
 import sys
 
