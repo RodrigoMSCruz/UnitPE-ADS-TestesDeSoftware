@@ -38,15 +38,14 @@ def test_muitasPossibilidades():
   assert checa_codigo('T35t3 3rr4d0! 56') == False
 
 
-'''
+
 @mark.parametrize(
-  'param, waited_result',
+  'param, resultado_esperado',
   [
     ('77777777', True),
     ('0123', False),
     ('98765432', True)
   ]   
 )
-def test_lenght_with_parametrize(param,waited_result):
-  assert checa_codigo(param) == waited_result
-'''
+def test_comprimento_com_parametrize(param,resultado_esperado):
+  assert checa_codigo(param) == resultado_esperado
